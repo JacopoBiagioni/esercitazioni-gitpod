@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./container.component.css']
 })
 export class ContainerComponent implements OnInit {
-  names:string[]
+  macchine:string[]
   constructor() { 
-    this.names = ['Ruspa','Bulldozer','Betoniera','Gru','Dumper','Autocarro','Escavatore','Terne','Pale','Motolivellatrici']
+    this.macchine = ['Ruspa','Bulldozer','Betoniera','Gru','Dumper','Autocarro','Escavatore','Terne','Pale','Motolivellatrici']
   }
 
   ngOnInit(): void {
